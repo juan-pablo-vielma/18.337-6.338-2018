@@ -1,11 +1,38 @@
-#  JuMP Demo at Dagstuhl Seminar 18081
+#  Mathematical Optimization using JuMP (MIT 18.337/6.338, Fall 2018)
 
-This site contains materials for a demonstration of [JuMP](https://github.com/JuliaOpt/JuMP.jl) at the [Dagstuhl Seminar 18081: Designing and Implementing Algorithms for Mixed-Integer Nonlinear Optimization](http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=18081)
 
-## Install Julia
+This site contains materials for my guest lecture at [MIT 18.337/6.338, Modern Numerical Computing](http://courses.csail.mit.edu/18.337/2018/) in Fall 2018. 
+
+## Installation Instructions for Julia v0.6 Notebooks
 
 You should use the latest version of Julia v0.6.2.
 Binaries of Julia for all platforms are available [here](http://julialang.org/downloads/).
+```julia
+ENV["JUPYTER"]=""
+Pkg.add("IJulia")
+Pkg.add("Plots")
+Pkg.add("PyPlot")
+Pkg.add("JuMP")
+Pkg.add("PolyJuMP")
+Pkg.add("MultivariatePolynomials")
+Pkg.add("DynamicPolynomials")
+Pkg.add("SumOfSquares")
+Pkg.add("Pajarito")
+```
+
+Download [Gurobi](http://www.gurobi.com/) from its [download page](http://www.gurobi.com/downloads/gurobi-optimizer) and get an academic license by registering with your MIT email [here](http://www.gurobi.com/academia/for-universities). Get an academic license for [Mosek](https://www.mosek.com) using this [form](https://license.mosek.com/academic/).
+```julia
+Pkg.add("Mosek")
+Pkg.add("Gurobi")
+```
+
+To make [CPLEX](https://www.ibm.com/analytics/data-science/prescriptive-analytics/cplex-optimizer) available to JuMP run the following code:
+
+In both cases the package install automatically downloads the Mosek binaries, but you need to request an academic license file using this [form](https://license.mosek.com/academic/).
+
+```julia
+Pkg.add("Clp")
+```
 
 
 ## Install Basic JuMP packages
@@ -106,7 +133,7 @@ Pkg.add("Mosek")
 Pkg.checkout("Mosek","b0.8")
 Pkg.build("Mosek")
 ```
-In both cases the package install automatically downloads the Mosek binaries, but you need to request an academic license file using this [form](https://license.mosek.com/academic/).
+
 
 If you do not have access to a Mosek license we recommend installing the open-source SDP solver [SCS](https://github.com/cvxgrp/scs) by running the following code:
 ```julia
