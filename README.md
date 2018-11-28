@@ -18,6 +18,8 @@ Pkg.add("MultivariatePolynomials")
 Pkg.add("DynamicPolynomials")
 Pkg.add("SumOfSquares")
 Pkg.add("Pajarito")
+Pkg.add("Polyhedra")
+Pkg.add("CDDLib")
 ```
 
 Download [Gurobi](http://www.gurobi.com/) from its [download page](http://www.gurobi.com/downloads/gurobi-optimizer) and get an academic license by registering with your MIT email [here](http://www.gurobi.com/academia/for-universities). Get an academic license for [Mosek](https://www.mosek.com) using this [form](https://license.mosek.com/academic/).
