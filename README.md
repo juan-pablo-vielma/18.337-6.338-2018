@@ -27,7 +27,7 @@ Pkg.instantiate()
 ```
 that will install all required packages described by the `Project.toml` and  `Manifest.toml` files in the corresponding folder. 	
 
-The [polynomial optimization example](https://github.com/juan-pablo-vielma/18.337-6.338-2018/blob/master/Polynomial%20Optimization%20with%20JuMP%200.18/Polynomial.ipynb) requires having [Gurobi](http://www.gurobi.com/) and a [Mosek](https://www.mosek.com) license already installed. You can download Gurobi from its [download page](http://www.gurobi.com/downloads/gurobi-optimizer) and you can get an academic license for it by registering with your MIT email [here](http://www.gurobi.com/academia/for-universities). You can get an academic license for [Mosek](https://www.mosek.com) using this [form](https://license.mosek.com/academic/).
+The [polynomial optimization example](https://github.com/juan-pablo-vielma/18.337-6.338-2018/blob/master/Polynomial%20Optimization%20with%20JuMP%200.18/Polynomial.ipynb) requires having [Gurobi](http://www.gurobi.com/) and a [Mosek](https://www.mosek.com) license already installed. You can download Gurobi from its [download page](http://www.gurobi.com/downloads/gurobi-optimizer) and you can get an academic license for it by registering with your MIT email [here](http://www.gurobi.com/academia/for-universities). You can get an academic license for Mosek using this [form](https://license.mosek.com/academic/).
 
 ## More resources
 
