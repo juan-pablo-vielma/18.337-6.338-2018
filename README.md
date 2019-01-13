@@ -11,7 +11,7 @@ You can download the materials by running
 ```
 git clone https://github.com/juan-pablo-vielma/18.337-6.338-2018
 ```
-or downloading [this zip file](https://github.comjuan-pablo-vielma/18.337-6.338-2018/archive/master.zip).
+or downloading [this zip file](https://github.com/juan-pablo-vielma/18.337-6.338-2018/archive/master.zip).
 
 Finally, you can install [Jupyter](http://jupyter.org/) and its Julia backend [IJulia](https://github.com/JuliaLang/IJulia.jl) by running the following code in the Julia REPL.
 ```julia
